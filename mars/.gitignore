@@ -1,0 +1,23 @@
+# misc
+**/.DS_Store
+
+# compiled stuff
+__pycache__/
+*.py[cod]
+
+# data
+data/
+logs/
+
+# config files
+config.ini
+
+# styling caches
+.mypy_cache/*
+
+# other things to ignore
+temp/
+private/
+
+# VSCode settings shouldn't be commited by default
+.vscode/settings.json

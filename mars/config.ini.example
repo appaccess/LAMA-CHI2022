@@ -1,0 +1,25 @@
+[crawl]
+output_path = data
+crawlers_path = ${crawl:output_path}/crawlers
+graphs_path = ${crawl:output_path}/graphs
+views_path = ${crawl:output_path}/views
+apks_path = ${crawl:output_path}/apks
+screenshots_path = ${crawl:output_path}/screenshots
+full_crawl_timeout = 300
+accesspull_version = 0.5
+start_app_delay = 10
+exec_action_delay = 5
+
+[postgresql]
+database = mars
+user = mars_user
+password = <REPLACE ME>
+host = <REPLACE ME>
+port = 5432
+
+[ingest]
+database = mars
+user = <REPLACE ME>
+password = <REPLACE ME>
+host = <REPLACE ME>
+port = 5432

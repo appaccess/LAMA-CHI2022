@@ -1,0 +1,11 @@
+black
+mypy
+dill
+tqdm
+pandas
+requests
+bs4
+pillow
+psycopg2-binary
+torch
+torchvision
